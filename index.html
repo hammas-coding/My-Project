@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bkwas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      color: #4fadc0;
+      background-color: #193948;
+    }
+
+    .cont h1 {
+      text-align: center;
+      line-height: 80px;
+      font-size: 50px;
+      font-weight: 600;
+      filter: drop-shadow(2px 2px 4px #e76268);
+    }
+
+    hr {
+      background-color: #4fadc0;
+    }
+
+    .yt-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .yt-link iframe {
+      border-radius: 10px;
+      border: none;
+    }
+
+    .download-link {
+      text-align: center;
+    }
+
+    .download-link a {
+      border-radius: 5px;
+      text-decoration: none;
+      color: #333;
+      background-color: #e76268;
+    }
+
+    .download-link a:hover {
+      background-color: #ccc;
+      color: #e76268;
+    }
+
+    .contact-info {
+      padding: 5px 0;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #e76268;
+    }
+
+    .social-links .facebook,
+    .social-links .twitter,
+    .social-links .instagram {
+      margin: 10px 0 !important;
+      padding: 10px;
+    }
+
+    .social-links a {
+      padding: 5px 15px;
+      margin: 0 5px;
+      border-radius: 5px;
+      color: #e76268;
+    }
+
+    .number {
+      padding: 5px 5px;
+    }
+
+    .social-links a:hover,
+    .number:hover {
+      background-color: #e76268;
+      border-radius: 5px;
+      color: white;
+    }
+
+    .map {
+      display: flex;
+      justify-content: center;
+    }
+
+    .map iframe {
+      border-radius: 5px;
+      filter: invert();
+    }
+  </style>
+  <body>
+    <div class="cont container-fluid">
+      <h1>Fazool Website</h1>
+      <hr />
+      <div class="yt-link">
+        <iframe
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          width="600"
+          height="400"
+        >
+        </iframe>
+      </div>
+      <hr />
+      <div class="download-link p-2">
+        <a href="/letter.pdf" download="Appointment Letter" class="p-2"
+          >Download Letter</a
+        >
+      </div>
+      <hr />
+      <div class="contact-info row">
+        <div class="col-md-6 text-center">
+          <h3>Contact Info</h3>
+          <hr />
+          <p>
+            Phone-no:
+            <a href="https://wa.me/+923340661177" class="number" target="_blank"
+              >03340661177</a
+            >
+            (For Whatsapp Only)
+          </p>
+          <p>Address: KFC Commercial Market, Rawalpindi.</p>
+          <div class="social-links">
+            <div class="facebook">
+              <a
+                href="https://www.facebook.com/hammas.rashid.456"
+                target="_blank"
+                >Facebook
+              </a>
+            </div>
+            <div class="twitter">
+              <a href="https://twitter.com/Hammas_Rashid_" target="_blank"
+                >Twitter
+              </a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/hammas_rashid/" target="_blank"
+                >Instagram</a
+              >
+            </div>
+          </div>
+          <p>See You Soon Again!</p>
+          <hr />
+        </div>
+        <div class="col-md-6 map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13287.718189470683!2d73.0707816!3d33.6330687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e08e6b649c1078e!2sKFC!5e0!3m2!1sen!2s!4v1662747679070!5m2!1sen!2s"
+            width="600"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <footer class="text-center">
+      <p class="py-1">End Of Fazool Website &copy Created By Hammas</p>
+    </footer>
+  </body>
+</html>
